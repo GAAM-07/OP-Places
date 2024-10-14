@@ -6,7 +6,7 @@ function Header() {
     <nav>
         <div className="container nav-container">
            <Link className="nav-logo" to={"/"} >
-           <h3> Op Paces <span> Blog </span> </h3>
+           <h3><span>O</span>P  <span>P</span>laces<span> B</span>log </h3>
            </Link>
            <ul className="nav-menu">
             <li><Link to={"/profile"}> User </Link> </li>
