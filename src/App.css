@@ -196,12 +196,18 @@ footer{
     font-weight: 300;
 
 }
+  /*------------ END OF THE FOOTER ---------------------------- */
+
+  /* -------------- ERROR PAGE------------------ */
+.error-center{
+    text-align: center;
+    margin-top: 1rem;
+    display:flex;
+    flex-direction:column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
 
-
-
-
-
-
-
-/*------------ END OF THE FOOTER ---------------------------- */
+/*--------------- END ERROR PAGE -------------*/ 
