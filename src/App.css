@@ -8,17 +8,18 @@
     border: none;
 }
 :root {
-    --color-primary: #6f6af8;
-    --color-danger: #da0f3f;
-    --color-white: #ffffff;
-    --color-light: #ccc;
-    --color-bg: hwb(240 95% 0%);
-    --color-gray-100: hsl(220, 20%, 10%, 5%);
-    --color-gray-200: hsl(220, 20%, 10%, 10%);
-    --color-gray-300: hsl(220, 20%, 10%, 25%);
-    --color-gray-500: hsl(220, 20%, 10%, 50%);
-    --color-gray-700: #252542;
-    --color-gray-900: #0c0c22;
+    --color-primary: #2b4158; /* Azul cielo */
+    --color-danger: #f25c05;  /* Naranja cálido */
+    --color-white: #ffffff;   /* Blanco puro */
+    --color-light: #f0e5d8;   /* Tono arena */
+    --color-bg: #ece5de; /* Azul claro para el fondo */
+    
+    --color-gray-100: hsl(30, 10%, 96%); /* Tono arena claro */
+    --color-gray-200: hsl(30, 10%, 86%); /* Arena ligeramente más oscuro */
+    --color-gray-300: hsl(30, 10%, 70%); /* Gris suave */
+    --color-gray-500: hsl(30, 10%, 50%); /* Gris intermedio */
+    --color-gray-700: #3a3a3a; /* Gris oscuro */
+    --color-gray-900: #2a2a2a; /* Gris más profundo para texto */
     
     --transition: .3s ease all;
     --border-radius-1:.2rem;
@@ -26,7 +27,6 @@
     --border-radius-3:.8rem;
     --border-radius-4:1.6rem;
 }
-
 
 html{
     font-family: "Montserrat", sans-serif;
@@ -162,3 +162,46 @@ display: none;
 
 }
 /*------------------ END OF THE NAV VAR ---------------------------- */
+/*------------------ BEGGIN OF THE FOOTER ---------------------------- */
+footer{
+    background: var(--color-gray-900);
+    margin-top: 8rem;
+    padding-top: 6rem;
+}
+.footer-categories{
+    display: flex;
+    align-items: center;
+    gap:2.4rem ;
+    margin-bottom: 4rem;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+.footer-categories li a {
+    color: var(--color-white);
+    background: var(--color-gray-500);
+    padding: .6rem 1.4rem;
+    border-radius: var(--border-radius-2) ;
+    transition: var(--transition);
+}
+.footer-categories li a:hover{
+    color: var(--color-gray-900);
+    background: var(--color-white);
+}
+.footer-copyright{
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--color-white);
+    border-top: 1px solid var(--color-light);
+    font-weight: 300;
+
+}
+
+
+
+
+
+
+
+
+/*------------ END OF THE FOOTER ---------------------------- */
