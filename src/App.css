@@ -163,39 +163,74 @@ display: none;
 }
 /*------------------ END OF THE NAV VAR ---------------------------- */
 /*------------------ BEGGIN OF THE FOOTER ---------------------------- */
-footer{
+footer {
     background: var(--color-gray-900);
     margin-top: 8rem;
     padding-top: 6rem;
-}
-.footer-categories{
+  }
+  
+  .footer-categories {
     display: flex;
     align-items: center;
-    gap:2.4rem ;
+    gap: 2.4rem;
     margin-bottom: 4rem;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
-
-}
-.footer-categories li a {
+  }
+  
+  .footer-categories li a {
     color: var(--color-white);
     background: var(--color-gray-500);
-    padding: .6rem 1.4rem;
-    border-radius: var(--border-radius-2) ;
+    padding: 0.6rem 1.4rem;
+    border-radius: var(--border-radius-2);
     transition: var(--transition);
-}
-.footer-categories li a:hover{
+  }
+  
+  .footer-categories li a:hover {
     color: var(--color-gray-900);
     background: var(--color-white);
-}
-.footer-copyright{
-    text-align: center;
+  }
+  
+  .footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* Espacio entre el copyright y el logo */
     padding: 1rem 0;
     color: var(--color-white);
     border-top: 1px solid var(--color-light);
     font-weight: 300;
-
-}
+    position: relative;
+  }
+  
+  .rofe-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-image {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+  
+  .text-container {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecdbdb;
+  }
+  
+  .rofeli {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ecdbdb;
+  }
+  
+  .rofeli br {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
   /*------------ END OF THE FOOTER ---------------------------- */
 
   /* -------------- ERROR PAGE------------------ */
