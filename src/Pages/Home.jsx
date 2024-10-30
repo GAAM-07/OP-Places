@@ -1,11 +1,12 @@
-import Post from '../components/Post'
+import Posts from '../components/Posts'
 
 function Home() {
   return (
     <>
-    < Post />
+    < Posts />
     </>
   )
+  
 }
 
 export default Home

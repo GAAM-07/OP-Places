@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import JClogo from "../Img/JClogo.PNG"
+import JClogo from "../assets/Img/JClogo.PNG"
 
 function Footer() {
   return (
