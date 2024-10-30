@@ -58,14 +58,14 @@ export const DummyPost= [ {
         category:"South America",
         authorId: 2,
         title:"beisbol venezuela" ,
-        des: "lorem"
+        des: "lore,jvawlhevlIHVYFLIWD FLbdpifiuvwdfkuyobwlr.fuh qiwofh oieufgo we87fy 87qwf 0987qefy p98eufgoiausgdfm"
     },
     {
         id: 4,
         Image:blogimage4,
         category:"South America",
         authorId: 2,
-        title:"" ,
+        title:"woa" ,
         des: "lorem"
     },
     {

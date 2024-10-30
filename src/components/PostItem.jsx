@@ -1,4 +1,3 @@
-import Posts from "./Posts"
 import { Link } from "react-router-dom"
 import PostAuthor from "./PostAuthor"
 export default function PostItem({postId , Image, authorId, category, title, des }) {
@@ -14,7 +13,7 @@ export default function PostItem({postId , Image, authorId, category, title, des
     <p>{des}</p>
     <div className="post-footer">
       <PostAuthor/>
-      <Link to={`/posts/categories/${category}`}> {category} </Link>
+      <Link to={`/posts/categories/${category}`} className="btn btn-category"> {category} </Link>
     </div>
 
 
