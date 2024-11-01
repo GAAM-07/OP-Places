@@ -32,8 +32,13 @@ import blogimage31 from "../assets/Img/31.JPG";
 import blogimage32 from "../assets/Img/32.JPG";
 
 
-
-
+export const HeadPost= [ {
+    id: 1,
+    Image: blogimage1 ,
+    category:"South America",
+    authorId: 2,
+    title:"Cafjdbliluabsdkdufygsakduyvkiasyudgfjyuasgdfiuysagdiufagsdyufasdfe" ,
+    des: "lorem"} ]
 
 
 export const DummyPost= [ {
@@ -41,7 +46,7 @@ export const DummyPost= [ {
         Image: blogimage1 ,
         category:"South America",
         authorId: 2,
-        title:"Cafe" ,
+        title:"Cafjdbliluabsdkdufygsakduyvkiasyudgfjyuasgdfiuysagdiufagsdyufasdfe" ,
         des: "lorem"
     },
     {
@@ -58,7 +63,7 @@ export const DummyPost= [ {
         category:"South America",
         authorId: 2,
         title:"beisbol venezuela" ,
-        des: "lore,jvawlhevlIHVYFLIWD FLbdpifiuvwdfkuyobwlr.fuh qiwofh oieufgo we87fy 87qwf 0987qefy p98eufgoiausgdfm"
+        des: "lore,jvawlhevlIHVYFLIWD FLbdpifiuvdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddwdfkuyobwlr.fuh qiwofh oieufgo we87fy 87qwf 0987qefy p98eufgoiausgdfm"
     },
     {
         id: 4,

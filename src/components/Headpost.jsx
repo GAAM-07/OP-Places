@@ -1,14 +1,15 @@
-import { Link } from "react-router-dom";
-import PostAuthor from "./PostAuthor";
 
-export default function PostItem({ postId, Image, authorId, category, title, des }) {
-  const shortTitle = title.length > 30 ? `${title.substring(0, 30)}...` : title;
-  const shortDes = des.length > 60 ? `${des.substring(0, 60)}...` : des;
-
+import { Link } from "react-router-dom"
+import Headpost from "../data/data"
+export default function Headpost() {
   return (
-    <article className="post">
-      <div className="post-image">
-        <img src={Image} alt="Post visual" />  
+    <article className="head-post">
+      {
+        HeadPost.map(({Id , Image, authorId, title , des  }, index )=>
+            {return(
+                <div className="">
+                    <div className="post-image">
+        <img src={HeadpostImage} alt="Post visual" />  
       </div>
       <div className="post-content">
         <Link to={`/posts/${postId}`}>
@@ -22,6 +23,14 @@ export default function PostItem({ postId, Image, authorId, category, title, des
           </Link>
         </div>
       </div>
+                </div>
+
+            )
+        })
+
+
+      }
+      
     </article>
-  );
+  )
 }
