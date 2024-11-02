@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import PostAuthor from "./PostAuthor";
 
 export default function PostItem({ postId, Image, authorId, category, title, des }) {
-  const shortTitle = title.length > 30 ? `${title.substring(0, 30)}...` : title;
+  const shortTitle = title.length > 25 ? `${title.substring(0, 25)}...` : title;
   const shortDes = des.length > 60 ? `${des.substring(0, 60)}...` : des;
 
   return (

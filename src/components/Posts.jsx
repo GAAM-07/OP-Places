@@ -3,7 +3,7 @@ import { DummyPost } from "../data/data"
 import { useState } from "react"
 // componet
 import PostItem from "./PostItem"
-import PostItem from "./Headpost"
+import Headpost from "./Headpost"
 
 export default function Posts() {
 
@@ -12,7 +12,7 @@ export default function Posts() {
   return (
      <section className="posts">
      <div className="head-post-aria">
-      <headPost/>
+      <Headpost/>
 
       
      </div>

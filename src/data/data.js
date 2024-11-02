@@ -37,7 +37,7 @@ export const HeadPost= [ {
     Image: blogimage1 ,
     category:"South America",
     authorId: 2,
-    title:"Cafjdbliluabsdkdufygsakduyvkiasyudgfjyuasgdfiuysagdiufagsdyufasdfe" ,
+    title:"waos maravilloso mundo de gumball" ,
     des: "lorem"} ]
 
 
@@ -46,7 +46,7 @@ export const DummyPost= [ {
         Image: blogimage1 ,
         category:"South America",
         authorId: 2,
-        title:"Cafjdbliluabsdkdufygsakduyvkiasyudgfjyuasgdfiuysagdiufagsdyufasdfe" ,
+        title:"waos waos maravilloso mundo de gumball" ,
         des: "lorem"
     },
     {
