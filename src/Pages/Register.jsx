@@ -17,17 +17,17 @@ export default function Register() {
 
   return (
     <section className='register'>
-      <div className="container register-container">
+      <div className="container register-container form container">
         <h2>Sign Up</h2>
         <form action="" className='form register-form'>
-          <p>This is the invalid message</p>
+          <p className="form-message">This is the invalid message</p>
           <input type="text" placeholder='Full Name' name='name' value={userData.name} onChange={changeInputHandle} />
           <input type="email" placeholder='Email' name='email' value={userData.email} onChange={changeInputHandle} />
           <input type="password" placeholder='Password' name='password' value={userData.password} onChange={changeInputHandle} />
           <input type="password" placeholder='Confirm password' name='password2' value={userData.password2} onChange={changeInputHandle} />
           <button type="submit" className="btn btn-primary">Register</button>
         </form>
-        <small>Already have an account? <Link to={'/login'}>Sign In</Link></small>
+        <small>Already have an account? <Link to={'/login'} className="lintusi" >Sign In</Link></small>
       </div>
     </section>
   );
