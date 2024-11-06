@@ -32,14 +32,6 @@ import blogimage31 from "../assets/Img/31.JPG";
 import blogimage32 from "../assets/Img/32.JPG";
 
 
-export const HeadPost= [ {
-    id: 1,
-    Image: blogimage1 ,
-    category:"South America",
-    authorId: 2,
-    title:"waos maravilloso mundo de gumball" ,
-    des: "lorem"} ]
-
 
 export const DummyPost= [ {
         id: 1,
