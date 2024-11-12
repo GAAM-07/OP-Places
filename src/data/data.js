@@ -292,3 +292,56 @@ export const DummyPost= [ {
     
     
 ]
+import AuthorImage1 from '../assets/Img/a1.jpg';
+import AuthorImage2 from '../assets/Img/a2.jpg';
+import AuthorImage3 from '../assets/Img/a3.jpg';
+import AuthorImage4 from '../assets/Img/a4.jpg';
+import AuthorImage5 from '../assets/Img/a5.png';
+import AuthorImage6 from '../assets/Img/a6.png';
+import AuthorImage7 from '../assets/Img/a7.jpg';
+
+export const DummyAuthor = [
+  {
+    id: 1,
+    Image: AuthorImage1,
+    name: 'Gustavo Alvarado',
+    posts: 2,
+  },
+  {
+    id: 2,
+    Image: AuthorImage2,
+    name: 'Harry Styles',
+    posts: 2,
+  },
+  {
+    id: 3,
+    Image: AuthorImage3,
+    name: 'Beg Joker',
+    posts: 2,
+  },
+  {
+    id: 4,
+    Image: AuthorImage4,
+    name: 'Bruce Waine',
+    posts: 2,
+  },
+  {
+    id: 5,
+    Image: AuthorImage5,
+    name: 'Hernesto "Che" Guevara ',
+    posts: 2,
+  },
+  {
+    id: 6,
+    Image: AuthorImage6,
+    name: 'Jonny Deep',
+    posts: 2,
+  },
+  {
+    id: 7,
+    Image: AuthorImage7,
+    name: 'Kira',
+    posts: 2,
+  },
+  
+];

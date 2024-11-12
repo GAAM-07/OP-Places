@@ -477,3 +477,109 @@ input, select, textarea {
 color: var(--color-danger);
 }
 /*========================== Sing In Styles end ============================*/
+
+/*========================== Authors Details==================================*/
+
+.author-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.author-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+.author-avatar {
+  background: var(--color-white);
+  padding: 1rem;
+  border-radius: var(--border-radius-3);
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  transition: var(--transition);
+  margin: auto;
+}
+.author-avatar:hover {
+  box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.1);
+}
+.author-image {
+  flex-shrink: 0; 
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/*========================== Authors Details==================================*/
+
+/*========================== Star AuthorProfile Aria==================================*/
+
+.profile-container a {
+  display: block;
+  width: fit-content;
+  color: var(--color-primary);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 1rem auto;
+}
+
+.profile-details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  text-align: center;
+  align-items: center;}
+
+  .profile-wrapper {
+    position: relative;
+  }
+  
+  .profile-image img {
+    width: 12rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 4px solid var(--color-light);
+  }
+
+  .profile-image-form {
+    position: absolute;
+    background: var(--color-white);
+    width: fit-content;
+    right: 0;
+    font-size: 1.4rem;
+    bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+  }
+  
+  .profile-image-form input {
+    display: none;
+  }
+  
+  .profile-image-form {
+    position: absolute;
+    background: var(--color-white);
+    width: fit-content;
+    right: 0;
+    font-size: 1.4rem;
+    bottom: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+  }
+/*========================== End AuthorsProfile Aria ==================================*/
