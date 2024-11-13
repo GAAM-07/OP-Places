@@ -527,6 +527,10 @@ color: var(--color-danger);
 
 /*========================== Star AuthorProfile Aria==================================*/
 
+.profile-container .form {
+  width: 70%;
+}
+
 .profile-container a {
   display: block;
   width: fit-content;
@@ -534,6 +538,16 @@ color: var(--color-danger);
   font-size: 18px;
   font-weight: 500;
   margin: 1rem auto;
+  transition: var(--transition);
+  padding: .7rem 1.2rem;
+  border-radius: var(--border-radius-1);
+}
+.profile-container a:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+.profile-container {
+  text-align: center;
 }
 
 .profile-details {
@@ -557,13 +571,13 @@ color: var(--color-danger);
 
   .profile-image-form {
     position: absolute;
-    background: var(--color-white);
+    background: none;
     width: fit-content;
-    right: 0;
-    font-size: 1.4rem;
+    right: -2rem;
+    font-size: 1.7rem;
     bottom: 1rem;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: .1rem;
     display: flex;
   }
   
@@ -571,15 +585,66 @@ color: var(--color-danger);
     display: none;
   }
   
-  .profile-image-form {
+  .profile-image-button {
     position: absolute;
-    background: var(--color-white);
+    background: none;
     width: fit-content;
-    right: 0;
-    font-size: 1.4rem;
-    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.7rem;
+    bottom: 1.1rem;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 50%;
     display: flex;
   }
+ 
 /*========================== End AuthorsProfile Aria ==================================*/
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+.dashboard-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: var(--color-white);
+  padding: .7rem 1.3rem;
+  border-radius: var(--border-radius-3);
+}
+
+.dashboard-post-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.dashboard-post-image {
+  width: 5rem;
+  border-radius: var(--border-radius-2);
+  overflow: hidden;
+}
+
+.dashboard-posts-action {
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard-posts-action .btn-V {
+  background: var(--color-light);
+}
+
+.dashboard-posts-action .btn-V:hover {
+  background: var(--color-gray-900);
+}
+.dashboard-post-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.dashboard-post:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+/*============================ Star Dashboard =========================================*/

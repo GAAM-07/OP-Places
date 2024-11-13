@@ -37,7 +37,7 @@ export const DummyPost= [ {
         id: 1,
         Image: blogimage1 ,
         category:"South America",
-        authorId: 2,
+        authorId: 21,
         title:"waos waos maravilloso mundo de gumball" ,
         des: "lorem"
     },
@@ -61,7 +61,7 @@ export const DummyPost= [ {
         id: 4,
         Image:blogimage4,
         category:"South America",
-        authorId: 2,
+        authorId: 3,
         title:"woa" ,
         des: "lorem"
     },
@@ -77,7 +77,7 @@ export const DummyPost= [ {
         id: 6,
         Image:blogimage6,
         category:"South America",
-        authorId: 2,
+        authorId: 4,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -109,7 +109,7 @@ export const DummyPost= [ {
         id: 10,
         Image:blogimage10,
         category:"South America",
-        authorId: 2,
+        authorId: 6,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -157,7 +157,7 @@ export const DummyPost= [ {
         id: 16,
         Image:blogimage16,
         category:"South America",
-        authorId: 2,
+        authorId: 6,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -189,7 +189,7 @@ export const DummyPost= [ {
         id: 20,
         Image:blogimage20,
         category:"South America",
-        authorId: 2,
+        authorId: 7,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -197,7 +197,7 @@ export const DummyPost= [ {
         id: 21,
         Image:blogimage21,
         category:"South America",
-        authorId: 2,
+        authorId: 7,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -213,7 +213,7 @@ export const DummyPost= [ {
         id: 23,
         Image:blogimage23,
         category:"South America",
-        authorId: 2,
+        authorId: 5,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -221,7 +221,7 @@ export const DummyPost= [ {
         id: 24,
         Image:blogimage24,
         category:"South America",
-        authorId: 2,
+        authorId: 5,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -237,7 +237,7 @@ export const DummyPost= [ {
         id: 26,
         Image:blogimage26,
         category:"South America",
-        authorId: 2,
+        authorId: 1,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -245,7 +245,7 @@ export const DummyPost= [ {
         id: 27,
         Image:blogimage27,
         category:"South America",
-        authorId: 2,
+        authorId: 1,
         title:"Cafe" ,
         des: "lorem"
     },
@@ -253,7 +253,7 @@ export const DummyPost= [ {
         id: 28,
         Image:blogimage28,
         category:"South America",
-        authorId: 2,
+        authorId: 1,
         title:"Cafe" ,
         des: "lorem"
     },
