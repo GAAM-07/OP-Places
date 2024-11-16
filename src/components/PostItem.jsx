@@ -16,7 +16,7 @@ export default function PostItem({ postId, Image, authorId, category, title, des
         </Link>
         <p>{shortDes}</p>
         <div className="post-footer">
-          <PostAuthor authorId={authorId} /> {/* Asegúrate de pasar authorId si es necesario */}
+          <PostAuthor authorId={authorId} /> 
           <Link to={`/posts/categories/${category}`} className="btn btn-category">
             {category}
           </Link>

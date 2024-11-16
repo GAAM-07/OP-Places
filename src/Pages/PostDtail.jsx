@@ -20,7 +20,7 @@ export default function PostDetail() {
         </div>
         <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, molestias.</h1>
         
-        {/* Agregamos la imagen y el párrafo aquí */}
+       
         <div className="postdtail-image">
           <img src={postDtailImage} alt="" />
         </div>
@@ -29,7 +29,7 @@ export default function PostDetail() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi repudiandae eveniet aspernatur dolorem nulla veniam sapiente a dignissimos, quidem itaque recusandae laboriosam nemo doloremque odio cumque minus maxime corrupti?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quo laborum odit, consequatur error at illo culpa excepturi deserunt officia aliquam, dolorum eius sed eveniet voluptate, unde sapiente? Similique, sed?
           </p>
-          {/* otros párrafos */}
+   
         </div>
       </div>
     </section>

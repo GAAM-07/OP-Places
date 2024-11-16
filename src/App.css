@@ -466,13 +466,17 @@ input, select, textarea {
 
 .form-container h2 {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .form-container small {
   margin-top: 1.5rem;
   display: block;
 }
-
+.page-title{
+  text-align: center;
+  padding-bottom: .8rem;
+}
 .lintusi{
 color: var(--color-danger);
 }
@@ -530,7 +534,9 @@ color: var(--color-danger);
 .profile-container .form {
   width: 70%;
 }
+.form-container{ width: 50%;
 
+}
 .profile-container a {
   display: block;
   width: fit-content;
@@ -598,6 +604,7 @@ color: var(--color-danger);
   }
  
 /*========================== End AuthorsProfile Aria ==================================*/
+/*============================ End Dashboard =========================================*/
 .dashboard-container {
   display: flex;
   flex-direction: column;
@@ -647,4 +654,11 @@ color: var(--color-danger);
   transition: all 0.3s ease;
 }
 
-/*============================ Star Dashboard =========================================*/
+/*============================ End Dashboard =========================================*/
+/*============================ Start QL Editor =========================================*/
+.ql-editor {
+  overflow: scroll;
+  background: var(--color-white);
+  height: 19rem !important;
+}
+/*============================ End´s QL Editor =========================================*/
