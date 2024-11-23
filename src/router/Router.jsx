@@ -23,7 +23,7 @@ import UserProfile from '../Pages/UserProfile'
 function Router() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter  >
 
        <Header/>
          <Routes> 

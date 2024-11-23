@@ -11,7 +11,7 @@
     --color-primary: #2b4158; /* Azul cielo */
     --color-danger: #f25c05;  /* Naranja cálido */
     --color-white: #ffffff;   /* Blanco puro */
-    --color-light: #f0e5d8;   /* Tono arena */
+    --color-light: #f88484;   /* Tono arena */
     --color-bg: #ece5de; /* Azul claro para el fondo */
     
     --color-gray-100: hsl(30, 10%, 96%); /* Tono arena claro */
@@ -690,11 +690,40 @@ color: var(--color-danger);
   gap: 0;
   right: 0;
   flex-direction: column;
+  perspective: 400px;
 }
 
 .nav-menu li {
   width: 100%;
   box-shadow: -2rem 4rem 4rem rgba(0, 0, 0, 0.26);
+  animation: NavAni forwards 400ms ease;
+  opacity: 0;
+  transform: rotateY(90deg);
+  transform-origin: top right;
+
+}
+
+@keyframes NavAni {
+  to {
+    opacity: 1;
+    transform: rotateY(0);
+  }
+}
+
+.nav-menu li:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.nav-menu li:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+.nav-menu li:nth-child(4) {
+  animation-delay: 400ms;
+}
+
+.nav-menu li:nth-child(5) {
+  animation-delay: 700ms;
 }
 
 .nav-menu li a {
@@ -708,5 +737,83 @@ color: var(--color-danger);
   font-size: 1.2rem;
   cursor: pointer;
 }
+/* ... Home ... */
+.head-post-container {
+  gap: 2rem;
 }
+
+.posts-container, .categoryPosts-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr)); 
+  gap: 1.5rem; 
+}
+/* ... Author posts ... */
+.authorPosts-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 2rem; 
+}
+
+/* ... Post Detail ... */
+.PostDetail-container {
+  width: 70%;
+}
+.author-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6rem;
+  justify-content: center;
+}
+
+/* ... Form Container ... */
+.form-container {
+  width: 70%;
+}
+
+
+}
+
+@media (max-width: 600px) {
+  /* ... Home ... */
+  .head-post-container {
+    grid-template-columns: 1fr;
+  }
+
+  .head-post-container .post-image {
+    grid-row: 1;
+  }
+
+  .posts-container {
+    grid-template-columns: repeat(1, 1fr);
+  gap: 1.6rem;
+  }
+  /* ... Author posts ... */
+.authorPosts-container {
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.6rem;}
+
+/* ... PostDetail ... */
+.PostDetail-container {
+  width: 70%;
+}
+.PostDetail-container {
+  width: 90%;
+  background: transparent;
+  padding: 0;
+}
+/* ... Author ... */
+.author-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* ... Form Container ... */
+.form-container {
+  width: 90%;
+}
+}
+
+
 /*============================ End`s Media Screen =========================================*/
