@@ -29,11 +29,12 @@ export default function Dashboard() {
                   Edit
                 </Link>
                 <Link
-                  to={`/posts/${authorId}/delete`}
+                  to={`/delete`}
                   className="btn btn-sm btn-danger"
                 >
                   Delete
                 </Link>
+                
               </div>
             </article>
           ))}

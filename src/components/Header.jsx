@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
 import { AiOutlineBars } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import { useState } from "react";
 function Header() {
+  
   return (
+
     <nav>
         <div className="container nav-container">
            <Link className="nav-logo" to={"/"} >

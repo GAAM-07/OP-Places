@@ -62,7 +62,7 @@ export default function CreatePosts() {
             onChange={(e) => setThumbImage(e.target.files[0])}
             accept="image/png, image/jpg, image/jpeg"
           />
-          
+          <button type="submit" className="btn btn-primary">Update Post</button>
         </form>
       </div>
     </section>

@@ -33,7 +33,7 @@ function Router() {
             <Route path="/posts/categories/:category" element={<CategoryPost/>} />
             <Route path="/create" element={<CreatePost/>} />
             <Route path="/myposts/:id" element={<DashBoard/>} />
-           { /* <Route path="/" element={<DeletePost/>} /> */ }
+            <Route path="/delete" element={<DeletePost/>} />
             <Route path="/posts/:id/edit" element={<EditPost/>} />
             <Route path="/login" element={<Login/>} />
             <Route path="/logout" element={<Logout/>} />
